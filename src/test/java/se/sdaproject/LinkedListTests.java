@@ -25,4 +25,12 @@ class LinkedListTests {
         String expected = "LinkedList()";
         assertEquals(list.toString(), expected);
     }
+
+    @Test
+    void findsNumberInList() {
+        LinkedList list = new LinkedList();
+        list.search(2);
+        String expected = "(1)";
+        assertEquals(list.toString(), expected);
+    }
 }
