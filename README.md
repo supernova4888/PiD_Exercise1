@@ -80,7 +80,7 @@ you can return the variable that counts the number of elements.
 > iterating through the list every time we want to get the size of the
 > linked list?
 
-#### Exercise 5: Remove operation
+#### Bonus Exercise 5 (Optional): Remove operation
 
 Now that we know how many elements our data structure has, we might
 want to remove some when they are no longer needed to save some
